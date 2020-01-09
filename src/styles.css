@@ -27,6 +27,8 @@ button {
     padding: 15px;
 }
 
+
+
 @media (min-width: 768px) {
     #sidebar {
         position: fixed;
@@ -36,6 +38,7 @@ button {
         height: 100%;
         padding-top: 30px;
     }
+    
 }
 
 
@@ -46,4 +49,24 @@ button {
     #content {
         margin-left: 180px;
     }
+}
+
+.floating-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.modal {
+    max-width: 600px;
+    max-height: 300px;
+    margin: 100px auto;
+    overflow-y: auto;
+    background: #fff;
+}
+
+.modal > h1 {
+    text-align: center;
+}
+.modal .modal-content {
+    padding: 1rem;
 }
